@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "comment": "英検5級アプリ 単語データのサンプル（たべもの・のみものカテゴリ）。この型(スキーマ)でOKなら全カテゴリ約600語に展開する。",
+    "schema": {
+      "id": "単語の固定ID（カテゴリ_英単語）。学習記録と紐づけるキー",
+      "en": "英単語（音声で読み上げる対象）",
+      "ja": "意味（やさしい日本語）",
+      "category": "カテゴリ名",
+      "emoji": "イメージ絵文字（無理なものは空文字）",
+      "rank": "でやすさランク 3=よく出る / 2=ふつう / 1=たまに（※目安。後で調整可）",
+      "example_en": "やさしい例文（英）。5級レベルの文法のみ",
+      "example_ja": "例文の意味（ひらがな中心・漢字にはアプリ側でふりがな表示）",
+      "note": "補足（同音異義など。任意）"
+    }
+  },
+  "words": [
+    { "id": "food_apple",     "en": "apple",     "ja": "りんご",          "category": "たべもの・のみもの", "emoji": "🍎", "rank": 3, "example_en": "I like apples.",          "example_ja": "わたしは りんごが すきです。" },
+    { "id": "food_banana",    "en": "banana",    "ja": "バナナ",          "category": "たべもの・のみもの", "emoji": "🍌", "rank": 2, "example_en": "I eat a banana.",         "example_ja": "わたしは バナナを たべます。" },
+    { "id": "food_orange",    "en": "orange",    "ja": "オレンジ",        "category": "たべもの・のみもの", "emoji": "🍊", "rank": 3, "example_en": "This is an orange.",      "example_ja": "これは オレンジです。", "note": "「オレンジ色」の意味もある" },
+    { "id": "food_egg",       "en": "egg",       "ja": "たまご",          "category": "たべもの・のみもの", "emoji": "🥚", "rank": 3, "example_en": "I like eggs.",            "example_ja": "わたしは たまごが すきです。" },
+    { "id": "food_bread",     "en": "bread",     "ja": "パン",            "category": "たべもの・のみもの", "emoji": "🍞", "rank": 3, "example_en": "I eat bread.",            "example_ja": "わたしは パンを たべます。" },
+    { "id": "food_rice",      "en": "rice",      "ja": "ごはん・お米",    "category": "たべもの・のみもの", "emoji": "🍚", "rank": 3, "example_en": "I eat rice every day.",   "example_ja": "わたしは まいにち ごはんを たべます。" },
+    { "id": "food_milk",      "en": "milk",      "ja": "ぎゅうにゅう",    "category": "たべもの・のみもの", "emoji": "🥛", "rank": 3, "example_en": "I drink milk.",           "example_ja": "わたしは ぎゅうにゅうを のみます。" },
+    { "id": "food_water",     "en": "water",     "ja": "みず",            "category": "たべもの・のみもの", "emoji": "💧", "rank": 3, "example_en": "I want some water.",      "example_ja": "みずが ほしいです。" },
+    { "id": "food_juice",     "en": "juice",     "ja": "ジュース",        "category": "たべもの・のみもの", "emoji": "🧃", "rank": 3, "example_en": "Do you like juice?",      "example_ja": "ジュースは すきですか。" },
+    { "id": "food_tea",       "en": "tea",       "ja": "おちゃ",          "category": "たべもの・のみもの", "emoji": "🍵", "rank": 2, "example_en": "I drink tea.",            "example_ja": "わたしは おちゃを のみます。" },
+    { "id": "food_coffee",    "en": "coffee",    "ja": "コーヒー",        "category": "たべもの・のみもの", "emoji": "☕", "rank": 2, "example_en": "My father likes coffee.", "example_ja": "ちちは コーヒーが すきです。" },
+    { "id": "food_cake",      "en": "cake",      "ja": "ケーキ",          "category": "たべもの・のみもの", "emoji": "🍰", "rank": 3, "example_en": "I like cake.",            "example_ja": "わたしは ケーキが すきです。" },
+    { "id": "food_icecream",  "en": "ice cream", "ja": "アイスクリーム",  "category": "たべもの・のみもの", "emoji": "🍦", "rank": 2, "example_en": "I want ice cream.",       "example_ja": "アイスクリームが ほしいです。" },
+    { "id": "food_cookie",    "en": "cookie",    "ja": "クッキー",        "category": "たべもの・のみもの", "emoji": "🍪", "rank": 2, "example_en": "These cookies are good.", "example_ja": "この クッキーは おいしいです。" },
+    { "id": "food_candy",     "en": "candy",     "ja": "あめ・キャンディー","category": "たべもの・のみもの", "emoji": "🍬", "rank": 2, "example_en": "I have some candy.",      "example_ja": "あめを もっています。" },
+    { "id": "food_chocolate", "en": "chocolate", "ja": "チョコレート",    "category": "たべもの・のみもの", "emoji": "🍫", "rank": 2, "example_en": "I like chocolate.",       "example_ja": "わたしは チョコレートが すきです。" },
+    { "id": "food_fish",      "en": "fish",      "ja": "さかな（食べ物）","category": "たべもの・のみもの", "emoji": "🐟", "rank": 3, "example_en": "I eat fish.",             "example_ja": "わたしは さかなを たべます。", "note": "「魚（どうぶつ）」と同じ単語" },
+    { "id": "food_meat",      "en": "meat",      "ja": "にく",            "category": "たべもの・のみもの", "emoji": "🍖", "rank": 2, "example_en": "Do you like meat?",       "example_ja": "おにくは すきですか。" },
+    { "id": "food_chicken",   "en": "chicken",   "ja": "とりにく・にわとり","category": "たべもの・のみもの", "emoji": "🍗", "rank": 2, "example_en": "I like chicken.",         "example_ja": "わたしは とりにくが すきです。" },
+    { "id": "food_salad",     "en": "salad",     "ja": "サラダ",          "category": "たべもの・のみもの", "emoji": "🥗", "rank": 2, "example_en": "I eat a salad.",          "example_ja": "わたしは サラダを たべます。" },
+    { "id": "food_soup",      "en": "soup",      "ja": "スープ",          "category": "たべもの・のみもの", "emoji": "🍲", "rank": 2, "example_en": "This soup is hot.",       "example_ja": "この スープは あつい です。" },
+    { "id": "food_fruit",     "en": "fruit",     "ja": "くだもの",        "category": "たべもの・のみもの", "emoji": "🍓", "rank": 2, "example_en": "I like fruit.",           "example_ja": "わたしは くだものが すきです。" }
+  ]
+}

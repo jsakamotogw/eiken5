@@ -1,0 +1,18 @@
+{
+  "name": "えいけん5きゅう たんごれんしゅう",
+  "short_name": "えいご5きゅう",
+  "description": "英検5級の単語を、音声とクイズで楽しく練習するアプリ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff6fb",
+  "theme_color": "#ff8fb1",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
