@@ -1,5 +1,7 @@
-/* シンプルなサービスワーカー：オフラインでも開けるようにアプリ一式をキャッシュする */
-const CACHE = 'eiken5-v1';
+/* サービスワーカー：オフラインでも開けるようにアプリ一式をキャッシュする。
+   方式：ネットワーク優先（オンライン時は必ず最新を取得、取れたらキャッシュ更新。
+   オフライン時のみキャッシュを使う）。これにより更新が即反映される。 */
+const CACHE = 'eiken5-v2';
 const ASSETS = ['./','./index.html','./words.js','./manifest.json','./icon.svg'];
 
 self.addEventListener('install', e=>{
@@ -7,11 +9,17 @@ self.addEventListener('install', e=>{
 });
 self.addEventListener('activate', e=>{
   e.waitUntil(caches.keys().then(keys=>Promise.all(
-    keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))
+    keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))   // 古いキャッシュを削除
   )).then(()=>self.clients.claim()));
 });
 self.addEventListener('fetch', e=>{
+  if(e.request.method!=='GET') return;
   e.respondWith(
-    caches.match(e.request).then(r=> r || fetch(e.request))
+    fetch(e.request).then(res=>{
+      // 取得成功 → キャッシュを最新に更新してから返す
+      const copy = res.clone();
+      caches.open(CACHE).then(c=>c.put(e.request, copy)).catch(()=>{});
+      return res;
+    }).catch(()=> caches.match(e.request))  // オフライン時はキャッシュから
   );
 });
