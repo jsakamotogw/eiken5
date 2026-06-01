@@ -1756,16 +1756,6 @@ window.EIKEN_WORDS = [
   "example_ja": "わたしは せっけんを もっています。"
  },
  {
-  "id": "home_ball",
-  "en": "ball",
-  "ja": "ボール",
-  "category": "いえ・身のまわり",
-  "emoji": "⚽",
-  "rank": 2,
-  "example_en": "I have a ball.",
-  "example_ja": "わたしは ボールを もっています。"
- },
- {
   "id": "home_toy",
   "en": "toy",
   "ja": "おもちゃ",
@@ -2066,16 +2056,6 @@ window.EIKEN_WORDS = [
   "example_ja": "きょうは あめです。"
  },
  {
-  "id": "nature_hot",
-  "en": "hot",
-  "ja": "あつい",
-  "category": "しぜん・天気",
-  "emoji": "🥵",
-  "rank": 3,
-  "example_en": "It is hot today.",
-  "example_ja": "きょうは あついです。"
- },
- {
   "id": "sport_soccer",
   "en": "soccer",
   "ja": "サッカー",
@@ -2164,26 +2144,6 @@ window.EIKEN_WORDS = [
   "rank": 2,
   "example_en": "I like this song.",
   "example_ja": "わたしは この うたが すきです。"
- },
- {
-  "id": "sport_picture",
-  "en": "picture",
-  "ja": "え・しゃしん",
-  "category": "スポーツ・あそび",
-  "emoji": "🖼️",
-  "rank": 2,
-  "example_en": "This is a nice picture.",
-  "example_ja": "これは すてきな えです。"
- },
- {
-  "id": "sport_park",
-  "en": "park",
-  "ja": "こうえん",
-  "category": "スポーツ・あそび",
-  "emoji": "🏞️",
-  "rank": 2,
-  "example_en": "I play in the park.",
-  "example_ja": "わたしは こうえんで あそびます。"
  },
  {
   "id": "sport_bike",
@@ -2324,16 +2284,6 @@ window.EIKEN_WORDS = [
   "rank": 3,
   "example_en": "I eat dinner at seven.",
   "example_ja": "わたしは 7じに ばんごはんを たべます。"
- },
- {
-  "id": "time_get_up",
-  "en": "get up",
-  "ja": "おきる",
-  "category": "時・1日のせいかつ",
-  "emoji": "🛏️",
-  "rank": 2,
-  "example_en": "I get up at six.",
-  "example_ja": "わたしは 6じに おきます。"
  },
  {
   "id": "time_go_to_bed",
@@ -3002,5 +2952,2487 @@ window.EIKEN_WORDS = [
   "rank": 2,
   "example_en": "It is delicious.",
   "example_ja": "それは おいしいです。"
+ },
+ {
+  "id": "verb_teach",
+  "en": "teach",
+  "ja": "おしえる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🧑‍🏫",
+  "rank": 2,
+  "example_en": "I teach English.",
+  "example_ja": "わたしは えいごを おしえます。"
+ },
+ {
+  "id": "verb_learn",
+  "en": "learn",
+  "ja": "ならう・まなぶ",
+  "category": "どうし（うごきことば）",
+  "emoji": "📖",
+  "rank": 2,
+  "example_en": "I learn English.",
+  "example_ja": "わたしは えいごを ならいます。"
+ },
+ {
+  "id": "verb_know",
+  "en": "know",
+  "ja": "しっている",
+  "category": "どうし（うごきことば）",
+  "emoji": "💡",
+  "rank": 3,
+  "example_en": "I know his name.",
+  "example_ja": "わたしは かれの なまえを しっています。"
+ },
+ {
+  "id": "verb_think",
+  "en": "think",
+  "ja": "おもう・かんがえる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🤔",
+  "rank": 3,
+  "example_en": "I think it is good.",
+  "example_ja": "それは いいと おもいます。"
+ },
+ {
+  "id": "verb_talk",
+  "en": "talk",
+  "ja": "はなす",
+  "category": "どうし（うごきことば）",
+  "emoji": "💬",
+  "rank": 2,
+  "example_en": "Let's talk.",
+  "example_ja": "はなしましょう。"
+ },
+ {
+  "id": "verb_call",
+  "en": "call",
+  "ja": "よぶ・でんわする",
+  "category": "どうし（うごきことば）",
+  "emoji": "📞",
+  "rank": 2,
+  "example_en": "Call me, please.",
+  "example_ja": "わたしに でんわしてね。"
+ },
+ {
+  "id": "verb_ask",
+  "en": "ask",
+  "ja": "たずねる・きく",
+  "category": "どうし（うごきことば）",
+  "emoji": "🙋",
+  "rank": 2,
+  "example_en": "I ask a question.",
+  "example_ja": "わたしは しつもんを します。"
+ },
+ {
+  "id": "verb_answer",
+  "en": "answer",
+  "ja": "こたえる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🙋",
+  "rank": 2,
+  "example_en": "Answer the question.",
+  "example_ja": "しつもんに こたえてね。"
+ },
+ {
+  "id": "verb_wash",
+  "en": "wash",
+  "ja": "あらう",
+  "category": "どうし（うごきことば）",
+  "emoji": "🧼",
+  "rank": 2,
+  "example_en": "I wash my hands.",
+  "example_ja": "わたしは てを あらいます。"
+ },
+ {
+  "id": "verb_clean",
+  "en": "clean",
+  "ja": "そうじする",
+  "category": "どうし（うごきことば）",
+  "emoji": "🧹",
+  "rank": 2,
+  "example_en": "I clean my room.",
+  "example_ja": "わたしは へやを そうじします。"
+ },
+ {
+  "id": "verb_use",
+  "en": "use",
+  "ja": "つかう",
+  "category": "どうし（うごきことば）",
+  "emoji": "✏️",
+  "rank": 2,
+  "example_en": "I use a pen.",
+  "example_ja": "わたしは ペンを つかいます。"
+ },
+ {
+  "id": "verb_buy",
+  "en": "buy",
+  "ja": "かう",
+  "category": "どうし（うごきことば）",
+  "emoji": "🛒",
+  "rank": 3,
+  "example_en": "I buy a cap.",
+  "example_ja": "わたしは ぼうしを かいます。"
+ },
+ {
+  "id": "verb_sell",
+  "en": "sell",
+  "ja": "うる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🏪",
+  "rank": 1,
+  "example_en": "They sell apples.",
+  "example_ja": "かれらは りんごを うります。"
+ },
+ {
+  "id": "verb_give",
+  "en": "give",
+  "ja": "あげる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🎁",
+  "rank": 2,
+  "example_en": "I give you a pen.",
+  "example_ja": "わたしは あなたに ペンを あげます。"
+ },
+ {
+  "id": "verb_take",
+  "en": "take",
+  "ja": "とる・もっていく",
+  "category": "どうし（うごきことば）",
+  "emoji": "✋",
+  "rank": 3,
+  "example_en": "Take this book.",
+  "example_ja": "この ほんを とってね。"
+ },
+ {
+  "id": "verb_put",
+  "en": "put",
+  "ja": "おく",
+  "category": "どうし（うごきことば）",
+  "emoji": "📥",
+  "rank": 2,
+  "example_en": "Put it here.",
+  "example_ja": "ここに おいてね。"
+ },
+ {
+  "id": "verb_bring",
+  "en": "bring",
+  "ja": "もってくる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🎒",
+  "rank": 2,
+  "example_en": "Bring your bag.",
+  "example_ja": "かばんを もってきてね。"
+ },
+ {
+  "id": "verb_find",
+  "en": "find",
+  "ja": "みつける",
+  "category": "どうし（うごきことば）",
+  "emoji": "🔍",
+  "rank": 2,
+  "example_en": "I can find it.",
+  "example_ja": "わたしは それを みつけられます。"
+ },
+ {
+  "id": "verb_meet",
+  "en": "meet",
+  "ja": "あう",
+  "category": "どうし（うごきことば）",
+  "emoji": "🤝",
+  "rank": 2,
+  "example_en": "Let's meet here.",
+  "example_ja": "ここで あいましょう。"
+ },
+ {
+  "id": "verb_start",
+  "en": "start",
+  "ja": "はじめる",
+  "category": "どうし（うごきことば）",
+  "emoji": "▶️",
+  "rank": 2,
+  "example_en": "Let's start now.",
+  "example_ja": "いま はじめましょう。"
+ },
+ {
+  "id": "verb_stop",
+  "en": "stop",
+  "ja": "とまる・やめる",
+  "category": "どうし（うごきことば）",
+  "emoji": "🛑",
+  "rank": 2,
+  "example_en": "Stop here, please.",
+  "example_ja": "ここで とまってね。"
+ },
+ {
+  "id": "verb_wait",
+  "en": "wait",
+  "ja": "まつ",
+  "category": "どうし（うごきことば）",
+  "emoji": "⏳",
+  "rank": 2,
+  "example_en": "Wait here, please.",
+  "example_ja": "ここで まってね。"
+ },
+ {
+  "id": "verb_live",
+  "en": "live",
+  "ja": "すむ",
+  "category": "どうし（うごきことば）",
+  "emoji": "🏠",
+  "rank": 2,
+  "example_en": "I live in Japan.",
+  "example_ja": "わたしは にほんに すんでいます。"
+ },
+ {
+  "id": "verb_work",
+  "en": "work",
+  "ja": "はたらく",
+  "category": "どうし（うごきことば）",
+  "emoji": "💼",
+  "rank": 3,
+  "example_en": "I work every day.",
+  "example_ja": "わたしは まいにち はたらきます。"
+ },
+ {
+  "id": "verb_drive",
+  "en": "drive",
+  "ja": "うんてんする",
+  "category": "どうし（うごきことば）",
+  "emoji": "🚗",
+  "rank": 2,
+  "example_en": "I can drive a car.",
+  "example_ja": "わたしは くるまを うんてんできます。"
+ },
+ {
+  "id": "adj_young",
+  "en": "young",
+  "ja": "わかい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🧒",
+  "rank": 3,
+  "example_en": "He is young.",
+  "example_ja": "かれは わかいです。"
+ },
+ {
+  "id": "adj_beautiful",
+  "en": "beautiful",
+  "ja": "うつくしい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🌸",
+  "rank": 2,
+  "example_en": "It is beautiful.",
+  "example_ja": "それは うつくしいです。"
+ },
+ {
+  "id": "adj_pretty",
+  "en": "pretty",
+  "ja": "きれいな・かわいい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🌷",
+  "rank": 2,
+  "example_en": "She is pretty.",
+  "example_ja": "かのじょは かわいいです。"
+ },
+ {
+  "id": "adj_cool",
+  "en": "cool",
+  "ja": "かっこいい・すずしい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "😎",
+  "rank": 2,
+  "example_en": "This car is cool.",
+  "example_ja": "この くるまは かっこいいです。"
+ },
+ {
+  "id": "adj_warm",
+  "en": "warm",
+  "ja": "あたたかい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🌤️",
+  "rank": 3,
+  "example_en": "It is warm today.",
+  "example_ja": "きょうは あたたかいです。"
+ },
+ {
+  "id": "adj_hungry",
+  "en": "hungry",
+  "ja": "おなかがすいた",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🍽️",
+  "rank": 3,
+  "example_en": "I am hungry.",
+  "example_ja": "わたしは おなかが すいています。"
+ },
+ {
+  "id": "adj_thirsty",
+  "en": "thirsty",
+  "ja": "のどがかわいた",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🥤",
+  "rank": 2,
+  "example_en": "I am thirsty.",
+  "example_ja": "わたしは のどが かわいています。"
+ },
+ {
+  "id": "adj_sleepy",
+  "en": "sleepy",
+  "ja": "ねむい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "😴",
+  "rank": 2,
+  "example_en": "I am sleepy.",
+  "example_ja": "わたしは ねむいです。"
+ },
+ {
+  "id": "adj_tired",
+  "en": "tired",
+  "ja": "つかれた",
+  "category": "けいようし（ようすことば）",
+  "emoji": "😫",
+  "rank": 3,
+  "example_en": "I am tired.",
+  "example_ja": "わたしは つかれています。"
+ },
+ {
+  "id": "adj_sick",
+  "en": "sick",
+  "ja": "びょうきの",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🤒",
+  "rank": 2,
+  "example_en": "I am sick today.",
+  "example_ja": "きょう わたしは びょうきです。"
+ },
+ {
+  "id": "adj_free",
+  "en": "free",
+  "ja": "ひまな・じゆうな",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🕊️",
+  "rank": 2,
+  "example_en": "I am free today.",
+  "example_ja": "きょう わたしは ひまです。"
+ },
+ {
+  "id": "adj_busy",
+  "en": "busy",
+  "ja": "いそがしい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🏃",
+  "rank": 2,
+  "example_en": "I am busy today.",
+  "example_ja": "きょう わたしは いそがしいです。"
+ },
+ {
+  "id": "adj_dirty",
+  "en": "dirty",
+  "ja": "きたない",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🧹",
+  "rank": 2,
+  "example_en": "My hands are dirty.",
+  "example_ja": "わたしの ては きたないです。"
+ },
+ {
+  "id": "adj_clean",
+  "en": "clean",
+  "ja": "きれいな",
+  "category": "けいようし（ようすことば）",
+  "emoji": "✨",
+  "rank": 2,
+  "example_en": "My room is clean.",
+  "example_ja": "わたしの へやは きれいです。"
+ },
+ {
+  "id": "adj_dark",
+  "en": "dark",
+  "ja": "くらい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🌑",
+  "rank": 2,
+  "example_en": "It is dark.",
+  "example_ja": "そとは くらいです。"
+ },
+ {
+  "id": "adj_bright",
+  "en": "bright",
+  "ja": "あかるい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🌞",
+  "rank": 2,
+  "example_en": "It is bright.",
+  "example_ja": "そとは あかるいです。"
+ },
+ {
+  "id": "adj_favorite",
+  "en": "favorite",
+  "ja": "おきにいりの",
+  "category": "けいようし（ようすことば）",
+  "emoji": "⭐",
+  "rank": 3,
+  "example_en": "This is my favorite book.",
+  "example_ja": "これは わたしの おきにいりの ほんです。"
+ },
+ {
+  "id": "adj_strong",
+  "en": "strong",
+  "ja": "つよい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "💪",
+  "rank": 2,
+  "example_en": "He is strong.",
+  "example_ja": "かれは つよいです。"
+ },
+ {
+  "id": "adj_heavy",
+  "en": "heavy",
+  "ja": "おもい",
+  "category": "けいようし（ようすことば）",
+  "emoji": "🏋️",
+  "rank": 2,
+  "example_en": "This bag is heavy.",
+  "example_ja": "この かばんは おもいです。"
+ },
+ {
+  "id": "adv_very",
+  "en": "very",
+  "ja": "とても",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 3,
+  "example_en": "I am very happy.",
+  "example_ja": "わたしは とても うれしいです。"
+ },
+ {
+  "id": "adv_too",
+  "en": "too",
+  "ja": "〜もまた・〜すぎる",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "I am happy too.",
+  "example_ja": "わたしも うれしいです。"
+ },
+ {
+  "id": "adv_also",
+  "en": "also",
+  "ja": "〜もまた",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "I also like dogs.",
+  "example_ja": "わたしも いぬが すきです。"
+ },
+ {
+  "id": "adv_here",
+  "en": "here",
+  "ja": "ここに",
+  "category": "ふくし・つなぎことば",
+  "emoji": "📍",
+  "rank": 3,
+  "example_en": "Come here.",
+  "example_ja": "ここに きてね。"
+ },
+ {
+  "id": "adv_there",
+  "en": "there",
+  "ja": "そこに・あそこに",
+  "category": "ふくし・つなぎことば",
+  "emoji": "👉",
+  "rank": 3,
+  "example_en": "Look there.",
+  "example_ja": "あそこを みてね。"
+ },
+ {
+  "id": "adv_up",
+  "en": "up",
+  "ja": "うえに",
+  "category": "ふくし・つなぎことば",
+  "emoji": "⬆️",
+  "rank": 3,
+  "example_en": "Look up.",
+  "example_ja": "うえを みてね。"
+ },
+ {
+  "id": "adv_down",
+  "en": "down",
+  "ja": "したに",
+  "category": "ふくし・つなぎことば",
+  "emoji": "⬇️",
+  "rank": 2,
+  "example_en": "Sit down, please.",
+  "example_ja": "すわってね。"
+ },
+ {
+  "id": "adv_well",
+  "en": "well",
+  "ja": "じょうずに・よく",
+  "category": "ふくし・つなぎことば",
+  "emoji": "👍",
+  "rank": 2,
+  "example_en": "I can swim well.",
+  "example_ja": "わたしは じょうずに およげます。"
+ },
+ {
+  "id": "adv_again",
+  "en": "again",
+  "ja": "もういちど",
+  "category": "ふくし・つなぎことば",
+  "emoji": "🔁",
+  "rank": 2,
+  "example_en": "See you again.",
+  "example_ja": "また あいましょう。"
+ },
+ {
+  "id": "adv_always",
+  "en": "always",
+  "ja": "いつも",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "I always walk to school.",
+  "example_ja": "わたしは いつも あるいて がっこうへ いきます。"
+ },
+ {
+  "id": "adv_sometimes",
+  "en": "sometimes",
+  "ja": "ときどき",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "I sometimes play tennis.",
+  "example_ja": "わたしは ときどき テニスを します。"
+ },
+ {
+  "id": "adv_then",
+  "en": "then",
+  "ja": "それから・そのとき",
+  "category": "ふくし・つなぎことば",
+  "emoji": "",
+  "rank": 1,
+  "example_en": "See you then.",
+  "example_ja": "そのとき あいましょう。"
+ },
+ {
+  "id": "adv_together",
+  "en": "together",
+  "ja": "いっしょに",
+  "category": "ふくし・つなぎことば",
+  "emoji": "🤝",
+  "rank": 2,
+  "example_en": "Let's play together.",
+  "example_ja": "いっしょに あそびましょう。"
+ },
+ {
+  "id": "food_hamburger",
+  "en": "hamburger",
+  "ja": "ハンバーガー",
+  "category": "たべもの・のみもの",
+  "emoji": "🍔",
+  "rank": 3,
+  "example_en": "I like hamburgers.",
+  "example_ja": "わたしは ハンバーガーが すきです。"
+ },
+ {
+  "id": "food_pizza",
+  "en": "pizza",
+  "ja": "ピザ",
+  "category": "たべもの・のみもの",
+  "emoji": "🍕",
+  "rank": 3,
+  "example_en": "I like pizza.",
+  "example_ja": "わたしは ピザが すきです。"
+ },
+ {
+  "id": "food_sandwich",
+  "en": "sandwich",
+  "ja": "サンドイッチ",
+  "category": "たべもの・のみもの",
+  "emoji": "🥪",
+  "rank": 3,
+  "example_en": "This is my sandwich.",
+  "example_ja": "これは わたしの サンドイッチです。"
+ },
+ {
+  "id": "food_spaghetti",
+  "en": "spaghetti",
+  "ja": "スパゲッティ",
+  "category": "たべもの・のみもの",
+  "emoji": "🍝",
+  "rank": 2,
+  "example_en": "I like spaghetti.",
+  "example_ja": "わたしは スパゲッティが すきです。"
+ },
+ {
+  "id": "food_noodle",
+  "en": "noodle",
+  "ja": "めん・ヌードル",
+  "category": "たべもの・のみもの",
+  "emoji": "🍜",
+  "rank": 2,
+  "example_en": "I like noodles.",
+  "example_ja": "わたしは めんが すきです。"
+ },
+ {
+  "id": "food_curry",
+  "en": "curry",
+  "ja": "カレー",
+  "category": "たべもの・のみもの",
+  "emoji": "🍛",
+  "rank": 2,
+  "example_en": "I like curry.",
+  "example_ja": "わたしは カレーが すきです。"
+ },
+ {
+  "id": "food_sausage",
+  "en": "sausage",
+  "ja": "ソーセージ",
+  "category": "たべもの・のみもの",
+  "emoji": "🌭",
+  "rank": 2,
+  "example_en": "I like sausages.",
+  "example_ja": "わたしは ソーセージが すきです。"
+ },
+ {
+  "id": "food_jam",
+  "en": "jam",
+  "ja": "ジャム",
+  "category": "たべもの・のみもの",
+  "emoji": "🍓",
+  "rank": 2,
+  "example_en": "I like jam.",
+  "example_ja": "わたしは ジャムが すきです。"
+ },
+ {
+  "id": "food_butter",
+  "en": "butter",
+  "ja": "バター",
+  "category": "たべもの・のみもの",
+  "emoji": "🧈",
+  "rank": 2,
+  "example_en": "This is butter.",
+  "example_ja": "これは バターです。"
+ },
+ {
+  "id": "food_cheese",
+  "en": "cheese",
+  "ja": "チーズ",
+  "category": "たべもの・のみもの",
+  "emoji": "🧀",
+  "rank": 2,
+  "example_en": "I like cheese.",
+  "example_ja": "わたしは チーズが すきです。"
+ },
+ {
+  "id": "food_sugar",
+  "en": "sugar",
+  "ja": "さとう",
+  "category": "たべもの・のみもの",
+  "emoji": "🍬",
+  "rank": 2,
+  "example_en": "This is sugar.",
+  "example_ja": "これは さとうです。"
+ },
+ {
+  "id": "food_salt",
+  "en": "salt",
+  "ja": "しお",
+  "category": "たべもの・のみもの",
+  "emoji": "🧂",
+  "rank": 2,
+  "example_en": "This is salt.",
+  "example_ja": "これは しおです。"
+ },
+ {
+  "id": "food_potato",
+  "en": "potato",
+  "ja": "じゃがいも",
+  "category": "たべもの・のみもの",
+  "emoji": "🥔",
+  "rank": 2,
+  "example_en": "I like potatoes.",
+  "example_ja": "わたしは じゃがいもが すきです。"
+ },
+ {
+  "id": "food_tomato",
+  "en": "tomato",
+  "ja": "トマト",
+  "category": "たべもの・のみもの",
+  "emoji": "🍅",
+  "rank": 2,
+  "example_en": "I like tomatoes.",
+  "example_ja": "わたしは トマトが すきです。"
+ },
+ {
+  "id": "food_carrot",
+  "en": "carrot",
+  "ja": "にんじん",
+  "category": "たべもの・のみもの",
+  "emoji": "🥕",
+  "rank": 2,
+  "example_en": "I like carrots.",
+  "example_ja": "わたしは にんじんが すきです。"
+ },
+ {
+  "id": "food_onion",
+  "en": "onion",
+  "ja": "たまねぎ",
+  "category": "たべもの・のみもの",
+  "emoji": "🧅",
+  "rank": 2,
+  "example_en": "I like onions.",
+  "example_ja": "わたしは たまねぎが すきです。"
+ },
+ {
+  "id": "food_strawberry",
+  "en": "strawberry",
+  "ja": "いちご",
+  "category": "たべもの・のみもの",
+  "emoji": "🍓",
+  "rank": 2,
+  "example_en": "I like strawberries.",
+  "example_ja": "わたしは いちごが すきです。"
+ },
+ {
+  "id": "food_grape",
+  "en": "grape",
+  "ja": "ぶどう",
+  "category": "たべもの・のみもの",
+  "emoji": "🍇",
+  "rank": 2,
+  "example_en": "I like grapes.",
+  "example_ja": "わたしは ぶどうが すきです。"
+ },
+ {
+  "id": "animal_duck",
+  "en": "duck",
+  "ja": "あひる・かも",
+  "category": "どうぶつ",
+  "emoji": "🦆",
+  "rank": 2,
+  "example_en": "I have a duck.",
+  "example_ja": "わたしは あひるを かっています。"
+ },
+ {
+  "id": "animal_sheep",
+  "en": "sheep",
+  "ja": "ひつじ",
+  "category": "どうぶつ",
+  "emoji": "🐑",
+  "rank": 2,
+  "example_en": "This is a sheep.",
+  "example_ja": "これは ひつじです。"
+ },
+ {
+  "id": "animal_goat",
+  "en": "goat",
+  "ja": "やぎ",
+  "category": "どうぶつ",
+  "emoji": "🐐",
+  "rank": 2,
+  "example_en": "This is a goat.",
+  "example_ja": "これは やぎです。"
+ },
+ {
+  "id": "animal_frog",
+  "en": "frog",
+  "ja": "かえる",
+  "category": "どうぶつ",
+  "emoji": "🐸",
+  "rank": 2,
+  "example_en": "I have a frog.",
+  "example_ja": "わたしは かえるを かっています。"
+ },
+ {
+  "id": "animal_snake",
+  "en": "snake",
+  "ja": "へび",
+  "category": "どうぶつ",
+  "emoji": "🐍",
+  "rank": 2,
+  "example_en": "This is a snake.",
+  "example_ja": "これは へびです。"
+ },
+ {
+  "id": "animal_turtle",
+  "en": "turtle",
+  "ja": "かめ",
+  "category": "どうぶつ",
+  "emoji": "🐢",
+  "rank": 2,
+  "example_en": "I have a turtle.",
+  "example_ja": "わたしは かめを かっています。"
+ },
+ {
+  "id": "animal_koala",
+  "en": "koala",
+  "ja": "コアラ",
+  "category": "どうぶつ",
+  "emoji": "🐨",
+  "rank": 2,
+  "example_en": "This is a koala.",
+  "example_ja": "これは コアラです。"
+ },
+ {
+  "id": "animal_giraffe",
+  "en": "giraffe",
+  "ja": "きりん",
+  "category": "どうぶつ",
+  "emoji": "🦒",
+  "rank": 2,
+  "example_en": "This is a giraffe.",
+  "example_ja": "これは きりんです。"
+ },
+ {
+  "id": "animal_fox",
+  "en": "fox",
+  "ja": "きつね",
+  "category": "どうぶつ",
+  "emoji": "🦊",
+  "rank": 2,
+  "example_en": "This is a fox.",
+  "example_ja": "これは きつねです。"
+ },
+ {
+  "id": "animal_wolf",
+  "en": "wolf",
+  "ja": "おおかみ",
+  "category": "どうぶつ",
+  "emoji": "🐺",
+  "rank": 2,
+  "example_en": "This is a wolf.",
+  "example_ja": "これは おおかみです。"
+ },
+ {
+  "id": "animal_deer",
+  "en": "deer",
+  "ja": "しか",
+  "category": "どうぶつ",
+  "emoji": "🦌",
+  "rank": 2,
+  "example_en": "This is a deer.",
+  "example_ja": "これは しかです。"
+ },
+ {
+  "id": "animal_squirrel",
+  "en": "squirrel",
+  "ja": "りす",
+  "category": "どうぶつ",
+  "emoji": "🐿️",
+  "rank": 2,
+  "example_en": "This is a squirrel.",
+  "example_ja": "これは りすです。"
+ },
+ {
+  "id": "animal_hamster",
+  "en": "hamster",
+  "ja": "ハムスター",
+  "category": "どうぶつ",
+  "emoji": "🐹",
+  "rank": 2,
+  "example_en": "I have a hamster.",
+  "example_ja": "わたしは ハムスターを かっています。"
+ },
+ {
+  "id": "animal_ant",
+  "en": "ant",
+  "ja": "あり",
+  "category": "どうぶつ",
+  "emoji": "🐜",
+  "rank": 2,
+  "example_en": "This is an ant.",
+  "example_ja": "これは ありです。"
+ },
+ {
+  "id": "body_arm",
+  "en": "arm",
+  "ja": "うで",
+  "category": "体",
+  "emoji": "💪",
+  "rank": 2,
+  "example_en": "I have two arms.",
+  "example_ja": "わたしは うでが 2ほん あります。"
+ },
+ {
+  "id": "body_finger",
+  "en": "finger",
+  "ja": "ゆび",
+  "category": "体",
+  "emoji": "👆",
+  "rank": 2,
+  "example_en": "This is my finger.",
+  "example_ja": "これは わたしの ゆびです。"
+ },
+ {
+  "id": "body_knee",
+  "en": "knee",
+  "ja": "ひざ",
+  "category": "体",
+  "emoji": "🦵",
+  "rank": 2,
+  "example_en": "This is my knee.",
+  "example_ja": "これは わたしの ひざです。"
+ },
+ {
+  "id": "body_tooth",
+  "en": "tooth",
+  "ja": "は",
+  "category": "体",
+  "emoji": "🦷",
+  "rank": 2,
+  "example_en": "I have a white tooth.",
+  "example_ja": "わたしは しろい はが あります。",
+  "note": "ふくすうは teeth"
+ },
+ {
+  "id": "body_neck",
+  "en": "neck",
+  "ja": "くび",
+  "category": "体",
+  "emoji": "🧣",
+  "rank": 2,
+  "example_en": "This is my neck.",
+  "example_ja": "これは わたしの くびです。"
+ },
+ {
+  "id": "body_shoulder",
+  "en": "shoulder",
+  "ja": "かた",
+  "category": "体",
+  "emoji": "🤷",
+  "rank": 2,
+  "example_en": "This is my shoulder.",
+  "example_ja": "これは わたしの かたです。"
+ },
+ {
+  "id": "body_back",
+  "en": "back",
+  "ja": "せなか",
+  "category": "体",
+  "emoji": "🔙",
+  "rank": 2,
+  "example_en": "This is my back.",
+  "example_ja": "これは わたしの せなかです。"
+ },
+ {
+  "id": "body_stomach",
+  "en": "stomach",
+  "ja": "おなか",
+  "category": "体",
+  "emoji": "🤰",
+  "rank": 2,
+  "example_en": "This is my stomach.",
+  "example_ja": "これは わたしの おなかです。"
+ },
+ {
+  "id": "family_uncle",
+  "en": "uncle",
+  "ja": "おじ",
+  "category": "家族・人",
+  "emoji": "👨",
+  "rank": 2,
+  "example_en": "This is my uncle.",
+  "example_ja": "これは わたしの おじです。"
+ },
+ {
+  "id": "family_aunt",
+  "en": "aunt",
+  "ja": "おば",
+  "category": "家族・人",
+  "emoji": "👩",
+  "rank": 2,
+  "example_en": "This is my aunt.",
+  "example_ja": "これは わたしの おばです。"
+ },
+ {
+  "id": "family_cousin",
+  "en": "cousin",
+  "ja": "いとこ",
+  "category": "家族・人",
+  "emoji": "🧑",
+  "rank": 2,
+  "example_en": "This is my cousin.",
+  "example_ja": "これは わたしの いとこです。"
+ },
+ {
+  "id": "family_son",
+  "en": "son",
+  "ja": "むすこ",
+  "category": "家族・人",
+  "emoji": "👦",
+  "rank": 2,
+  "example_en": "This is my son.",
+  "example_ja": "これは わたしの むすこです。"
+ },
+ {
+  "id": "family_daughter",
+  "en": "daughter",
+  "ja": "むすめ",
+  "category": "家族・人",
+  "emoji": "👧",
+  "rank": 2,
+  "example_en": "This is my daughter.",
+  "example_ja": "これは わたしの むすめです。"
+ },
+ {
+  "id": "family_husband",
+  "en": "husband",
+  "ja": "おっと",
+  "category": "家族・人",
+  "emoji": "🤵",
+  "rank": 2,
+  "example_en": "This is my husband.",
+  "example_ja": "これは わたしの おっとです。"
+ },
+ {
+  "id": "family_wife",
+  "en": "wife",
+  "ja": "つま",
+  "category": "家族・人",
+  "emoji": "👰",
+  "rank": 2,
+  "example_en": "This is my wife.",
+  "example_ja": "これは わたしの つまです。"
+ },
+ {
+  "id": "family_kid",
+  "en": "kid",
+  "ja": "こども",
+  "category": "家族・人",
+  "emoji": "🧒",
+  "rank": 2,
+  "example_en": "He is a kid.",
+  "example_ja": "かれは こどもです。"
+ },
+ {
+  "id": "family_classmate",
+  "en": "classmate",
+  "ja": "クラスメート",
+  "category": "家族・人",
+  "emoji": "🧑‍🏫",
+  "rank": 2,
+  "example_en": "This is my classmate.",
+  "example_ja": "これは わたしの クラスメートです。"
+ },
+ {
+  "id": "family_everyone",
+  "en": "everyone",
+  "ja": "みんな",
+  "category": "家族・人",
+  "emoji": "👨‍👩‍👧‍👦",
+  "rank": 2,
+  "example_en": "Hello, everyone.",
+  "example_ja": "みなさん、こんにちは。"
+ },
+ {
+  "id": "school_crayon",
+  "en": "crayon",
+  "ja": "クレヨン",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🖍️",
+  "rank": 2,
+  "example_en": "I have a red crayon.",
+  "example_ja": "あかい クレヨンを もっています。"
+ },
+ {
+  "id": "school_marker",
+  "en": "marker",
+  "ja": "マーカー・マジック",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🖊️",
+  "rank": 2,
+  "example_en": "I have a new marker.",
+  "example_ja": "あたらしい マーカーを もっています。"
+ },
+ {
+  "id": "school_scissors",
+  "en": "scissors",
+  "ja": "はさみ",
+  "category": "学校・文ぼうぐ",
+  "emoji": "✂️",
+  "rank": 2,
+  "example_en": "This is my scissors.",
+  "example_ja": "これは わたしの はさみです。"
+ },
+ {
+  "id": "school_glue",
+  "en": "glue",
+  "ja": "のり",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🧴",
+  "rank": 2,
+  "example_en": "I have glue.",
+  "example_ja": "のりを もっています。"
+ },
+ {
+  "id": "school_paper",
+  "en": "paper",
+  "ja": "かみ",
+  "category": "学校・文ぼうぐ",
+  "emoji": "📄",
+  "rank": 2,
+  "example_en": "This is white paper.",
+  "example_ja": "これは しろい かみです。"
+ },
+ {
+  "id": "school_map",
+  "en": "map",
+  "ja": "ちず",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🗺️",
+  "rank": 2,
+  "example_en": "This is a big map.",
+  "example_ja": "これは おおきな ちずです。"
+ },
+ {
+  "id": "school_dictionary",
+  "en": "dictionary",
+  "ja": "じしょ",
+  "category": "学校・文ぼうぐ",
+  "emoji": "📖",
+  "rank": 2,
+  "example_en": "I have a dictionary.",
+  "example_ja": "じしょを もっています。"
+ },
+ {
+  "id": "school_calendar",
+  "en": "calendar",
+  "ja": "カレンダー",
+  "category": "学校・文ぼうぐ",
+  "emoji": "📅",
+  "rank": 2,
+  "example_en": "This is a new calendar.",
+  "example_ja": "これは あたらしい カレンダーです。"
+ },
+ {
+  "id": "school_gym",
+  "en": "gym",
+  "ja": "たいいくかん",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🏫",
+  "rank": 2,
+  "example_en": "I go to the gym.",
+  "example_ja": "たいいくかんに いきます。"
+ },
+ {
+  "id": "school_pencil_case",
+  "en": "pencil case",
+  "ja": "ふでばこ",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🎒",
+  "rank": 2,
+  "example_en": "This is my pencil case.",
+  "example_ja": "これは わたしの ふでばこです。"
+ },
+ {
+  "id": "school_lunch_box",
+  "en": "lunch box",
+  "ja": "おべんとうばこ",
+  "category": "学校・文ぼうぐ",
+  "emoji": "🍱",
+  "rank": 2,
+  "example_en": "I have a lunch box.",
+  "example_ja": "おべんとうばこを もっています。"
+ },
+ {
+  "id": "school_group",
+  "en": "group",
+  "ja": "グループ・はん",
+  "category": "学校・文ぼうぐ",
+  "emoji": "👥",
+  "rank": 2,
+  "example_en": "This is my group.",
+  "example_ja": "これは わたしの グループです。"
+ },
+ {
+  "id": "home_kitchen",
+  "en": "kitchen",
+  "ja": "だいどころ・キッチン",
+  "category": "いえ・身のまわり",
+  "emoji": "🍳",
+  "rank": 2,
+  "example_en": "The cat is in the kitchen.",
+  "example_ja": "ねこが だいどころに います。"
+ },
+ {
+  "id": "home_bathroom",
+  "en": "bathroom",
+  "ja": "おふろば・トイレ",
+  "category": "いえ・身のまわり",
+  "emoji": "🛁",
+  "rank": 2,
+  "example_en": "This is the bathroom.",
+  "example_ja": "ここは おふろばです。"
+ },
+ {
+  "id": "home_bedroom",
+  "en": "bedroom",
+  "ja": "しんしつ・ねるへや",
+  "category": "いえ・身のまわり",
+  "emoji": "🛏️",
+  "rank": 2,
+  "example_en": "This is my bedroom.",
+  "example_ja": "ここは わたしの しんしつです。"
+ },
+ {
+  "id": "home_garden",
+  "en": "garden",
+  "ja": "にわ",
+  "category": "いえ・身のまわり",
+  "emoji": "🌷",
+  "rank": 2,
+  "example_en": "The dog is in the garden.",
+  "example_ja": "いぬが にわに います。"
+ },
+ {
+  "id": "home_wall",
+  "en": "wall",
+  "ja": "かべ",
+  "category": "いえ・身のまわり",
+  "emoji": "🧱",
+  "rank": 2,
+  "example_en": "The clock is on the wall.",
+  "example_ja": "とけいが かべに あります。"
+ },
+ {
+  "id": "home_floor",
+  "en": "floor",
+  "ja": "ゆか",
+  "category": "いえ・身のまわり",
+  "emoji": "🪵",
+  "rank": 2,
+  "example_en": "The ball is on the floor.",
+  "example_ja": "ボールが ゆかに あります。"
+ },
+ {
+  "id": "home_glass",
+  "en": "glass",
+  "ja": "コップ・ガラス",
+  "category": "いえ・身のまわり",
+  "emoji": "🥛",
+  "rank": 2,
+  "example_en": "This is my glass.",
+  "example_ja": "これは わたしの コップです。"
+ },
+ {
+  "id": "home_plate",
+  "en": "plate",
+  "ja": "おさら",
+  "category": "いえ・身のまわり",
+  "emoji": "🍽️",
+  "rank": 2,
+  "example_en": "The cake is on the plate.",
+  "example_ja": "ケーキが おさらに あります。"
+ },
+ {
+  "id": "home_spoon",
+  "en": "spoon",
+  "ja": "スプーン",
+  "category": "いえ・身のまわり",
+  "emoji": "🥄",
+  "rank": 2,
+  "example_en": "This is a small spoon.",
+  "example_ja": "これは ちいさな スプーンです。"
+ },
+ {
+  "id": "home_fork",
+  "en": "fork",
+  "ja": "フォーク",
+  "category": "いえ・身のまわり",
+  "emoji": "🍴",
+  "rank": 2,
+  "example_en": "I have a fork.",
+  "example_ja": "フォークを もっています。"
+ },
+ {
+  "id": "home_knife",
+  "en": "knife",
+  "ja": "ナイフ",
+  "category": "いえ・身のまわり",
+  "emoji": "🔪",
+  "rank": 2,
+  "example_en": "This is a new knife.",
+  "example_ja": "これは あたらしい ナイフです。"
+ },
+ {
+  "id": "home_umbrella",
+  "en": "umbrella",
+  "ja": "かさ",
+  "category": "いえ・身のまわり",
+  "emoji": "☂️",
+  "rank": 2,
+  "example_en": "This is my umbrella.",
+  "example_ja": "これは わたしの かさです。"
+ },
+ {
+  "id": "place_city",
+  "en": "city",
+  "ja": "とし・まち",
+  "category": "ばしょ",
+  "emoji": "🏙️",
+  "rank": 2,
+  "example_en": "This is a big city.",
+  "example_ja": "これは おおきな としです。"
+ },
+ {
+  "id": "place_town",
+  "en": "town",
+  "ja": "まち",
+  "category": "ばしょ",
+  "emoji": "🏘️",
+  "rank": 2,
+  "example_en": "I go to the town.",
+  "example_ja": "まちに いきます。"
+ },
+ {
+  "id": "place_country",
+  "en": "country",
+  "ja": "くに・いなか",
+  "category": "ばしょ",
+  "emoji": "🗾",
+  "rank": 2,
+  "example_en": "Japan is my country.",
+  "example_ja": "にほんは わたしの くにです。"
+ },
+ {
+  "id": "place_street",
+  "en": "street",
+  "ja": "とおり・みち",
+  "category": "ばしょ",
+  "emoji": "🛣️",
+  "rank": 2,
+  "example_en": "The shop is on the street.",
+  "example_ja": "おみせが とおりに あります。"
+ },
+ {
+  "id": "place_road",
+  "en": "road",
+  "ja": "どうろ・みち",
+  "category": "ばしょ",
+  "emoji": "🛤️",
+  "rank": 2,
+  "example_en": "This is a long road.",
+  "example_ja": "これは ながい みちです。"
+ },
+ {
+  "id": "place_building",
+  "en": "building",
+  "ja": "ビル・たてもの",
+  "category": "ばしょ",
+  "emoji": "🏢",
+  "rank": 2,
+  "example_en": "This is a tall building.",
+  "example_ja": "これは たかい ビルです。"
+ },
+ {
+  "id": "place_farm",
+  "en": "farm",
+  "ja": "のうじょう・ぼくじょう",
+  "category": "ばしょ",
+  "emoji": "🚜",
+  "rank": 2,
+  "example_en": "I go to the farm.",
+  "example_ja": "のうじょうに いきます。"
+ },
+ {
+  "id": "place_beach",
+  "en": "beach",
+  "ja": "うみべ・ビーチ",
+  "category": "ばしょ",
+  "emoji": "🏖️",
+  "rank": 2,
+  "example_en": "I go to the beach.",
+  "example_ja": "うみべに いきます。"
+ },
+ {
+  "id": "place_pool",
+  "en": "pool",
+  "ja": "プール",
+  "category": "ばしょ",
+  "emoji": "🏊",
+  "rank": 2,
+  "example_en": "I go to the pool.",
+  "example_ja": "プールに いきます。"
+ },
+ {
+  "id": "place_temple",
+  "en": "temple",
+  "ja": "おてら",
+  "category": "ばしょ",
+  "emoji": "⛩️",
+  "rank": 2,
+  "example_en": "This is an old temple.",
+  "example_ja": "これは ふるい おてらです。"
+ },
+ {
+  "id": "place_shrine",
+  "en": "shrine",
+  "ja": "じんじゃ",
+  "category": "ばしょ",
+  "emoji": "⛩️",
+  "rank": 2,
+  "example_en": "I go to the shrine.",
+  "example_ja": "じんじゃに いきます。"
+ },
+ {
+  "id": "place_college",
+  "en": "college",
+  "ja": "だいがく",
+  "category": "ばしょ",
+  "emoji": "🎓",
+  "rank": 2,
+  "example_en": "I go to college.",
+  "example_ja": "だいがくに いきます。"
+ },
+ {
+  "id": "vehicle_car",
+  "en": "car",
+  "ja": "じどうしゃ・くるま",
+  "category": "のりもの",
+  "emoji": "🚗",
+  "rank": 3,
+  "example_en": "This is my car.",
+  "example_ja": "これは わたしの くるまです。"
+ },
+ {
+  "id": "vehicle_bus",
+  "en": "bus",
+  "ja": "バス",
+  "category": "のりもの",
+  "emoji": "🚌",
+  "rank": 3,
+  "example_en": "I go to school by bus.",
+  "example_ja": "バスで がっこうに いきます。"
+ },
+ {
+  "id": "vehicle_train",
+  "en": "train",
+  "ja": "でんしゃ",
+  "category": "のりもの",
+  "emoji": "🚆",
+  "rank": 3,
+  "example_en": "I go to the city by train.",
+  "example_ja": "でんしゃで まちに いきます。"
+ },
+ {
+  "id": "vehicle_taxi",
+  "en": "taxi",
+  "ja": "タクシー",
+  "category": "のりもの",
+  "emoji": "🚕",
+  "rank": 2,
+  "example_en": "This is a taxi.",
+  "example_ja": "これは タクシーです。"
+ },
+ {
+  "id": "vehicle_ship",
+  "en": "ship",
+  "ja": "ふね",
+  "category": "のりもの",
+  "emoji": "🚢",
+  "rank": 2,
+  "example_en": "This is a big ship.",
+  "example_ja": "これは おおきな ふねです。"
+ },
+ {
+  "id": "vehicle_boat",
+  "en": "boat",
+  "ja": "ボート・こぶね",
+  "category": "のりもの",
+  "emoji": "⛵",
+  "rank": 2,
+  "example_en": "This is a small boat.",
+  "example_ja": "これは ちいさな ボートです。"
+ },
+ {
+  "id": "vehicle_plane",
+  "en": "plane",
+  "ja": "ひこうき",
+  "category": "のりもの",
+  "emoji": "✈️",
+  "rank": 2,
+  "example_en": "I go to America by plane.",
+  "example_ja": "ひこうきで アメリカに いきます。"
+ },
+ {
+  "id": "vehicle_truck",
+  "en": "truck",
+  "ja": "トラック",
+  "category": "のりもの",
+  "emoji": "🚚",
+  "rank": 2,
+  "example_en": "This is a big truck.",
+  "example_ja": "これは おおきな トラックです。"
+ },
+ {
+  "id": "vehicle_subway",
+  "en": "subway",
+  "ja": "ちかてつ",
+  "category": "のりもの",
+  "emoji": "🚇",
+  "rank": 2,
+  "example_en": "I go to the city by subway.",
+  "example_ja": "ちかてつで まちに いきます。"
+ },
+ {
+  "id": "vehicle_jet",
+  "en": "jet",
+  "ja": "ジェットき",
+  "category": "のりもの",
+  "emoji": "🛩️",
+  "rank": 2,
+  "example_en": "This is a fast jet.",
+  "example_ja": "これは はやい ジェットきです。"
+ },
+ {
+  "id": "vehicle_ambulance",
+  "en": "ambulance",
+  "ja": "きゅうきゅうしゃ",
+  "category": "のりもの",
+  "emoji": "🚑",
+  "rank": 2,
+  "example_en": "This is an ambulance.",
+  "example_ja": "これは きゅうきゅうしゃです。"
+ },
+ {
+  "id": "vehicle_bicycle",
+  "en": "bicycle",
+  "ja": "じてんしゃ",
+  "category": "のりもの",
+  "emoji": "🚲",
+  "rank": 2,
+  "example_en": "I go to school by bicycle.",
+  "example_ja": "じてんしゃで がっこうに いきます。"
+ },
+ {
+  "id": "nature_weather",
+  "en": "weather",
+  "ja": "てんき",
+  "category": "しぜん・天気",
+  "emoji": "🌤️",
+  "rank": 2,
+  "example_en": "How is the weather today?",
+  "example_ja": "きょうの てんきは どうですか。"
+ },
+ {
+  "id": "nature_snowy",
+  "en": "snowy",
+  "ja": "ゆきの",
+  "category": "しぜん・天気",
+  "emoji": "❄️",
+  "rank": 2,
+  "example_en": "It is snowy today.",
+  "example_ja": "きょうは ゆきが ふっています。"
+ },
+ {
+  "id": "nature_windy",
+  "en": "windy",
+  "ja": "かぜが つよい",
+  "category": "しぜん・天気",
+  "emoji": "🌬️",
+  "rank": 2,
+  "example_en": "It is windy today.",
+  "example_ja": "きょうは かぜが つよいです。"
+ },
+ {
+  "id": "nature_cloudy",
+  "en": "cloudy",
+  "ja": "くもりの",
+  "category": "しぜん・天気",
+  "emoji": "☁️",
+  "rank": 2,
+  "example_en": "It is cloudy today.",
+  "example_ja": "きょうは くもりです。"
+ },
+ {
+  "id": "nature_ice",
+  "en": "ice",
+  "ja": "こおり",
+  "category": "しぜん・天気",
+  "emoji": "🧊",
+  "rank": 3,
+  "example_en": "I like ice.",
+  "example_ja": "わたしは こおりが すきです。"
+ },
+ {
+  "id": "nature_fire",
+  "en": "fire",
+  "ja": "ひ",
+  "category": "しぜん・天気",
+  "emoji": "🔥",
+  "rank": 3,
+  "example_en": "I see a fire.",
+  "example_ja": "ひが みえます。"
+ },
+ {
+  "id": "nature_ground",
+  "en": "ground",
+  "ja": "じめん",
+  "category": "しぜん・天気",
+  "emoji": "🟫",
+  "rank": 3,
+  "example_en": "I sit on the ground.",
+  "example_ja": "わたしは じめんに すわります。"
+ },
+ {
+  "id": "nature_grass",
+  "en": "grass",
+  "ja": "くさ",
+  "category": "しぜん・天気",
+  "emoji": "🌱",
+  "rank": 3,
+  "example_en": "The grass is green.",
+  "example_ja": "くさは みどりです。"
+ },
+ {
+  "id": "nature_leaf",
+  "en": "leaf",
+  "ja": "は",
+  "category": "しぜん・天気",
+  "emoji": "🍃",
+  "rank": 3,
+  "example_en": "I see a leaf.",
+  "example_ja": "はっぱが みえます。"
+ },
+ {
+  "id": "nature_stone",
+  "en": "stone",
+  "ja": "いし",
+  "category": "しぜん・天気",
+  "emoji": "🪨",
+  "rank": 3,
+  "example_en": "I have a stone.",
+  "example_ja": "わたしは いしを もっています。"
+ },
+ {
+  "id": "nature_forest",
+  "en": "forest",
+  "ja": "もり",
+  "category": "しぜん・天気",
+  "emoji": "🌲",
+  "rank": 3,
+  "example_en": "I like the forest.",
+  "example_ja": "わたしは もりが すきです。"
+ },
+ {
+  "id": "nature_lake",
+  "en": "lake",
+  "ja": "みずうみ",
+  "category": "しぜん・天気",
+  "emoji": "🏞️",
+  "rank": 3,
+  "example_en": "I see a big lake.",
+  "example_ja": "おおきな みずうみが みえます。"
+ },
+ {
+  "id": "sport_table_tennis",
+  "en": "table tennis",
+  "ja": "たっきゅう",
+  "category": "スポーツ・あそび",
+  "emoji": "🏓",
+  "rank": 2,
+  "example_en": "I like table tennis.",
+  "example_ja": "わたしは たっきゅうが すきです。"
+ },
+ {
+  "id": "sport_badminton",
+  "en": "badminton",
+  "ja": "バドミントン",
+  "category": "スポーツ・あそび",
+  "emoji": "🏸",
+  "rank": 2,
+  "example_en": "Let's play badminton.",
+  "example_ja": "バドミントンを しましょう。"
+ },
+ {
+  "id": "sport_rugby",
+  "en": "rugby",
+  "ja": "ラグビー",
+  "category": "スポーツ・あそび",
+  "emoji": "🏉",
+  "rank": 2,
+  "example_en": "I like rugby.",
+  "example_ja": "わたしは ラグビーが すきです。"
+ },
+ {
+  "id": "sport_golf",
+  "en": "golf",
+  "ja": "ゴルフ",
+  "category": "スポーツ・あそび",
+  "emoji": "⛳",
+  "rank": 2,
+  "example_en": "I play golf.",
+  "example_ja": "わたしは ゴルフを します。"
+ },
+ {
+  "id": "sport_skiing",
+  "en": "skiing",
+  "ja": "スキー",
+  "category": "スポーツ・あそび",
+  "emoji": "⛷️",
+  "rank": 3,
+  "example_en": "I like skiing.",
+  "example_ja": "わたしは スキーが すきです。"
+ },
+ {
+  "id": "sport_skating",
+  "en": "skating",
+  "ja": "スケート",
+  "category": "スポーツ・あそび",
+  "emoji": "⛸️",
+  "rank": 3,
+  "example_en": "I like skating.",
+  "example_ja": "わたしは スケートが すきです。"
+ },
+ {
+  "id": "sport_hiking",
+  "en": "hiking",
+  "ja": "ハイキング",
+  "category": "スポーツ・あそび",
+  "emoji": "🥾",
+  "rank": 3,
+  "example_en": "I like hiking.",
+  "example_ja": "わたしは ハイキングが すきです。"
+ },
+ {
+  "id": "sport_camping",
+  "en": "camping",
+  "ja": "キャンプ",
+  "category": "スポーツ・あそび",
+  "emoji": "🏕️",
+  "rank": 3,
+  "example_en": "I like camping.",
+  "example_ja": "わたしは キャンプが すきです。"
+ },
+ {
+  "id": "sport_fishing",
+  "en": "fishing",
+  "ja": "つり",
+  "category": "スポーツ・あそび",
+  "emoji": "🎣",
+  "rank": 3,
+  "example_en": "I like fishing.",
+  "example_ja": "わたしは つりが すきです。"
+ },
+ {
+  "id": "sport_drawing",
+  "en": "drawing",
+  "ja": "おえかき",
+  "category": "スポーツ・あそび",
+  "emoji": "✏️",
+  "rank": 3,
+  "example_en": "I like drawing.",
+  "example_ja": "わたしは おえかきが すきです。"
+ },
+ {
+  "id": "sport_movie",
+  "en": "movie",
+  "ja": "えいが",
+  "category": "スポーツ・あそび",
+  "emoji": "🎬",
+  "rank": 2,
+  "example_en": "I like movies.",
+  "example_ja": "わたしは えいがが すきです。"
+ },
+ {
+  "id": "sport_card",
+  "en": "card",
+  "ja": "カード",
+  "category": "スポーツ・あそび",
+  "emoji": "🃏",
+  "rank": 3,
+  "example_en": "Let's play cards.",
+  "example_ja": "カードを しましょう。"
+ },
+ {
+  "id": "sport_doll",
+  "en": "doll",
+  "ja": "にんぎょう",
+  "category": "スポーツ・あそび",
+  "emoji": "🪆",
+  "rank": 3,
+  "example_en": "I have a doll.",
+  "example_ja": "わたしは にんぎょうを もっています。"
+ },
+ {
+  "id": "sport_puzzle",
+  "en": "puzzle",
+  "ja": "パズル",
+  "category": "スポーツ・あそび",
+  "emoji": "🧩",
+  "rank": 3,
+  "example_en": "I like puzzles.",
+  "example_ja": "わたしは パズルが すきです。"
+ },
+ {
+  "id": "time_hour",
+  "en": "hour",
+  "ja": "じかん",
+  "category": "時・1日のせいかつ",
+  "emoji": "⏳",
+  "rank": 3,
+  "example_en": "I read for one hour.",
+  "example_ja": "わたしは いちじかん ほんを よみます。"
+ },
+ {
+  "id": "time_minute",
+  "en": "minute",
+  "ja": "ふん",
+  "category": "時・1日のせいかつ",
+  "emoji": "⏱️",
+  "rank": 3,
+  "example_en": "I have ten minutes.",
+  "example_ja": "じゅっぷん あります。"
+ },
+ {
+  "id": "time_weekend",
+  "en": "weekend",
+  "ja": "しゅうまつ",
+  "category": "時・1日のせいかつ",
+  "emoji": "🗓️",
+  "rank": 2,
+  "example_en": "I play on the weekend.",
+  "example_ja": "わたしは しゅうまつに あそびます。"
+ },
+ {
+  "id": "time_holiday",
+  "en": "holiday",
+  "ja": "おやすみのひ",
+  "category": "時・1日のせいかつ",
+  "emoji": "🎉",
+  "rank": 2,
+  "example_en": "I like holidays.",
+  "example_ja": "わたしは おやすみのひが すきです。"
+ },
+ {
+  "id": "time_birthday",
+  "en": "birthday",
+  "ja": "たんじょうび",
+  "category": "時・1日のせいかつ",
+  "emoji": "🎂",
+  "rank": 3,
+  "example_en": "My birthday is in spring.",
+  "example_ja": "わたしの たんじょうびは はるです。"
+ },
+ {
+  "id": "time_spring",
+  "en": "spring",
+  "ja": "はる",
+  "category": "時・1日のせいかつ",
+  "emoji": "🌸",
+  "rank": 3,
+  "example_en": "I like spring.",
+  "example_ja": "わたしは はるが すきです。"
+ },
+ {
+  "id": "time_summer",
+  "en": "summer",
+  "ja": "なつ",
+  "category": "時・1日のせいかつ",
+  "emoji": "🌻",
+  "rank": 3,
+  "example_en": "I like summer.",
+  "example_ja": "わたしは なつが すきです。"
+ },
+ {
+  "id": "time_fall",
+  "en": "fall",
+  "ja": "あき",
+  "category": "時・1日のせいかつ",
+  "emoji": "🍁",
+  "rank": 3,
+  "example_en": "I like fall.",
+  "example_ja": "わたしは あきが すきです。"
+ },
+ {
+  "id": "time_winter",
+  "en": "winter",
+  "ja": "ふゆ",
+  "category": "時・1日のせいかつ",
+  "emoji": "⛄",
+  "rank": 3,
+  "example_en": "I like winter.",
+  "example_ja": "わたしは ふゆが すきです。"
+ },
+ {
+  "id": "time_season",
+  "en": "season",
+  "ja": "きせつ",
+  "category": "時・1日のせいかつ",
+  "emoji": "🍂",
+  "rank": 2,
+  "example_en": "I like this season.",
+  "example_ja": "わたしは この きせつが すきです。"
+ },
+ {
+  "id": "time_oclock",
+  "en": "o'clock",
+  "ja": "〜じ",
+  "category": "時・1日のせいかつ",
+  "emoji": "🕒",
+  "rank": 3,
+  "example_en": "It is three o'clock.",
+  "example_ja": "いま さんじです。"
+ },
+ {
+  "id": "time_yesterday",
+  "en": "yesterday",
+  "ja": "きのう",
+  "category": "時・1日のせいかつ",
+  "emoji": "📅",
+  "rank": 3,
+  "example_en": "I play tennis.",
+  "example_ja": "きのう テニスを しました。"
+ },
+ {
+  "id": "time_noon",
+  "en": "noon",
+  "ja": "おひる",
+  "category": "時・1日のせいかつ",
+  "emoji": "🕛",
+  "rank": 3,
+  "example_en": "It is noon.",
+  "example_ja": "いま おひるです。"
+ },
+ {
+  "id": "time_midnight",
+  "en": "midnight",
+  "ja": "よなか",
+  "category": "時・1日のせいかつ",
+  "emoji": "🌙",
+  "rank": 2,
+  "example_en": "It is midnight.",
+  "example_ja": "いま よなかです。"
+ },
+ {
+  "id": "job_doctor",
+  "en": "doctor",
+  "ja": "いしゃ",
+  "category": "しごと・ひと",
+  "emoji": "👨‍⚕️",
+  "rank": 3,
+  "example_en": "He is a doctor.",
+  "example_ja": "かれは いしゃです。"
+ },
+ {
+  "id": "job_nurse",
+  "en": "nurse",
+  "ja": "かんごし",
+  "category": "しごと・ひと",
+  "emoji": "👩‍⚕️",
+  "rank": 3,
+  "example_en": "She is a nurse.",
+  "example_ja": "かのじょは かんごしです。"
+ },
+ {
+  "id": "job_police_officer",
+  "en": "police officer",
+  "ja": "けいさつかん",
+  "category": "しごと・ひと",
+  "emoji": "👮",
+  "rank": 2,
+  "example_en": "He is a police officer.",
+  "example_ja": "かれは けいさつかんです。"
+ },
+ {
+  "id": "job_firefighter",
+  "en": "firefighter",
+  "ja": "しょうぼうし",
+  "category": "しごと・ひと",
+  "emoji": "👨‍🚒",
+  "rank": 2,
+  "example_en": "He is a firefighter.",
+  "example_ja": "かれは しょうぼうしです。"
+ },
+ {
+  "id": "job_cook",
+  "en": "cook",
+  "ja": "コック・りょうりにん",
+  "category": "しごと・ひと",
+  "emoji": "👨‍🍳",
+  "rank": 3,
+  "example_en": "She is a cook.",
+  "example_ja": "かのじょは コックです。"
+ },
+ {
+  "id": "job_farmer",
+  "en": "farmer",
+  "ja": "のうか・のうふ",
+  "category": "しごと・ひと",
+  "emoji": "👨‍🌾",
+  "rank": 2,
+  "example_en": "He is a farmer.",
+  "example_ja": "かれは のうかです。"
+ },
+ {
+  "id": "job_singer",
+  "en": "singer",
+  "ja": "かしゅ",
+  "category": "しごと・ひと",
+  "emoji": "🎤",
+  "rank": 2,
+  "example_en": "She is a singer.",
+  "example_ja": "かのじょは かしゅです。"
+ },
+ {
+  "id": "job_dancer",
+  "en": "dancer",
+  "ja": "ダンサー",
+  "category": "しごと・ひと",
+  "emoji": "💃",
+  "rank": 2,
+  "example_en": "She is a dancer.",
+  "example_ja": "かのじょは ダンサーです。"
+ },
+ {
+  "id": "job_pilot",
+  "en": "pilot",
+  "ja": "パイロット",
+  "category": "しごと・ひと",
+  "emoji": "👨‍✈️",
+  "rank": 2,
+  "example_en": "He is a pilot.",
+  "example_ja": "かれは パイロットです。"
+ },
+ {
+  "id": "job_driver",
+  "en": "driver",
+  "ja": "うんてんしゅ",
+  "category": "しごと・ひと",
+  "emoji": "🚕",
+  "rank": 2,
+  "example_en": "He is a driver.",
+  "example_ja": "かれは うんてんしゅです。"
+ },
+ {
+  "id": "job_vet",
+  "en": "vet",
+  "ja": "じゅうい",
+  "category": "しごと・ひと",
+  "emoji": "🐶",
+  "rank": 2,
+  "example_en": "She is a vet.",
+  "example_ja": "かのじょは じゅういです。",
+  "note": "どうぶつの おいしゃさん"
+ },
+ {
+  "id": "job_dentist",
+  "en": "dentist",
+  "ja": "はいしゃ",
+  "category": "しごと・ひと",
+  "emoji": "🦷",
+  "rank": 2,
+  "example_en": "He is a dentist.",
+  "example_ja": "かれは はいしゃです。"
+ },
+ {
+  "id": "job_baker",
+  "en": "baker",
+  "ja": "パンやさん",
+  "category": "しごと・ひと",
+  "emoji": "🥖",
+  "rank": 2,
+  "example_en": "She is a baker.",
+  "example_ja": "かのじょは パンやさんです。"
+ },
+ {
+  "id": "job_artist",
+  "en": "artist",
+  "ja": "がか・げいじゅつか",
+  "category": "しごと・ひと",
+  "emoji": "🎨",
+  "rank": 2,
+  "example_en": "He is an artist.",
+  "example_ja": "かれは がかです。"
+ },
+ {
+  "id": "wear_shirt",
+  "en": "shirt",
+  "ja": "シャツ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👔",
+  "rank": 3,
+  "example_en": "This is my shirt.",
+  "example_ja": "これは わたしの シャツです。"
+ },
+ {
+  "id": "wear_tshirt",
+  "en": "T-shirt",
+  "ja": "ティーシャツ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👕",
+  "rank": 3,
+  "example_en": "I wear a T-shirt.",
+  "example_ja": "わたしは ティーシャツを きます。"
+ },
+ {
+  "id": "wear_pants",
+  "en": "pants",
+  "ja": "ズボン",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👖",
+  "rank": 2,
+  "example_en": "These are my pants.",
+  "example_ja": "これは わたしの ズボンです。"
+ },
+ {
+  "id": "wear_skirt",
+  "en": "skirt",
+  "ja": "スカート",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👗",
+  "rank": 2,
+  "example_en": "This is my skirt.",
+  "example_ja": "これは わたしの スカートです。"
+ },
+ {
+  "id": "wear_dress",
+  "en": "dress",
+  "ja": "ワンピース・ドレス",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👗",
+  "rank": 2,
+  "example_en": "She wears a dress.",
+  "example_ja": "かのじょは ドレスを きます。"
+ },
+ {
+  "id": "wear_cap",
+  "en": "cap",
+  "ja": "ぼうし（キャップ）",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧢",
+  "rank": 3,
+  "example_en": "I wear a cap.",
+  "example_ja": "わたしは ぼうしを かぶります。"
+ },
+ {
+  "id": "wear_hat",
+  "en": "hat",
+  "ja": "ぼうし（ハット）",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🎩",
+  "rank": 3,
+  "example_en": "I wear a hat.",
+  "example_ja": "わたしは ぼうしを かぶります。"
+ },
+ {
+  "id": "wear_shoes",
+  "en": "shoes",
+  "ja": "くつ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👟",
+  "rank": 3,
+  "example_en": "These are my shoes.",
+  "example_ja": "これは わたしの くつです。"
+ },
+ {
+  "id": "wear_socks",
+  "en": "socks",
+  "ja": "くつした",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧦",
+  "rank": 2,
+  "example_en": "These are my socks.",
+  "example_ja": "これは わたしの くつしたです。"
+ },
+ {
+  "id": "wear_coat",
+  "en": "coat",
+  "ja": "コート",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧥",
+  "rank": 2,
+  "example_en": "I wear a coat.",
+  "example_ja": "わたしは コートを きます。"
+ },
+ {
+  "id": "wear_jacket",
+  "en": "jacket",
+  "ja": "ジャケット・うわぎ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧥",
+  "rank": 2,
+  "example_en": "I wear a jacket.",
+  "example_ja": "わたしは ジャケットを きます。"
+ },
+ {
+  "id": "wear_sweater",
+  "en": "sweater",
+  "ja": "セーター",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧶",
+  "rank": 2,
+  "example_en": "I wear a sweater.",
+  "example_ja": "わたしは セーターを きます。"
+ },
+ {
+  "id": "wear_gloves",
+  "en": "gloves",
+  "ja": "てぶくろ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧤",
+  "rank": 2,
+  "example_en": "These are my gloves.",
+  "example_ja": "これは わたしの てぶくろです。"
+ },
+ {
+  "id": "wear_scarf",
+  "en": "scarf",
+  "ja": "マフラー・スカーフ",
+  "category": "みにつけるもの・ふく",
+  "emoji": "🧣",
+  "rank": 2,
+  "example_en": "This is my scarf.",
+  "example_ja": "これは わたしの マフラーです。"
+ },
+ {
+  "id": "wear_watch",
+  "en": "watch",
+  "ja": "うでどけい",
+  "category": "みにつけるもの・ふく",
+  "emoji": "⌚",
+  "rank": 2,
+  "example_en": "This is my watch.",
+  "example_ja": "これは わたしの うでどけいです。"
+ },
+ {
+  "id": "wear_glasses",
+  "en": "glasses",
+  "ja": "めがね",
+  "category": "みにつけるもの・ふく",
+  "emoji": "👓",
+  "rank": 2,
+  "example_en": "These are my glasses.",
+  "example_ja": "これは わたしの めがねです。"
+ },
+ {
+  "id": "ordinal_first",
+  "en": "first",
+  "ja": "1ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "🥇",
+  "rank": 3,
+  "example_en": "January is the first month.",
+  "example_ja": "1がつは さいしょの つきです。",
+  "note": "1ばんめ"
+ },
+ {
+  "id": "ordinal_second",
+  "en": "second",
+  "ja": "2ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "🥈",
+  "rank": 3,
+  "example_en": "February is the second month.",
+  "example_ja": "2がつは 2ばんめの つきです。",
+  "note": "2ばんめ"
+ },
+ {
+  "id": "ordinal_third",
+  "en": "third",
+  "ja": "3ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "🥉",
+  "rank": 3,
+  "example_en": "March is the third month.",
+  "example_ja": "3がつは 3ばんめの つきです。",
+  "note": "3ばんめ"
+ },
+ {
+  "id": "ordinal_fourth",
+  "en": "fourth",
+  "ja": "4ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "April is the fourth month.",
+  "example_ja": "4がつは 4ばんめの つきです。",
+  "note": "4ばんめ"
+ },
+ {
+  "id": "ordinal_fifth",
+  "en": "fifth",
+  "ja": "5ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "May is the fifth month.",
+  "example_ja": "5がつは 5ばんめの つきです。",
+  "note": "5ばんめ"
+ },
+ {
+  "id": "ordinal_sixth",
+  "en": "sixth",
+  "ja": "6ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "June is the sixth month.",
+  "example_ja": "6がつは 6ばんめの つきです。",
+  "note": "6ばんめ"
+ },
+ {
+  "id": "ordinal_seventh",
+  "en": "seventh",
+  "ja": "7ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "July is the seventh month.",
+  "example_ja": "7がつは 7ばんめの つきです。",
+  "note": "7ばんめ"
+ },
+ {
+  "id": "ordinal_eighth",
+  "en": "eighth",
+  "ja": "8ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "August is the eighth month.",
+  "example_ja": "8がつは 8ばんめの つきです。",
+  "note": "8ばんめ"
+ },
+ {
+  "id": "ordinal_ninth",
+  "en": "ninth",
+  "ja": "9ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "September is the ninth month.",
+  "example_ja": "9がつは 9ばんめの つきです。",
+  "note": "9ばんめ"
+ },
+ {
+  "id": "ordinal_tenth",
+  "en": "tenth",
+  "ja": "10ばんめ",
+  "category": "じゅんばん（〜ばんめ）",
+  "emoji": "",
+  "rank": 2,
+  "example_en": "October is the tenth month.",
+  "example_ja": "10がつは 10ばんめの つきです。",
+  "note": "10ばんめ"
+ },
+ {
+  "id": "thing_money",
+  "en": "money",
+  "ja": "おかね",
+  "category": "その他のもの・ことば",
+  "emoji": "💰",
+  "rank": 2,
+  "example_en": "I have some money.",
+  "example_ja": "わたしは おかねを もっています。"
+ },
+ {
+  "id": "thing_present",
+  "en": "present",
+  "ja": "プレゼント",
+  "category": "その他のもの・ことば",
+  "emoji": "🎁",
+  "rank": 2,
+  "example_en": "This is a present for you.",
+  "example_ja": "これは あなたへの プレゼントです。"
+ },
+ {
+  "id": "thing_letter",
+  "en": "letter",
+  "ja": "てがみ",
+  "category": "その他のもの・ことば",
+  "emoji": "✉️",
+  "rank": 2,
+  "example_en": "This is a letter.",
+  "example_ja": "これは てがみです。"
+ },
+ {
+  "id": "thing_word",
+  "en": "word",
+  "ja": "ことば・たんご",
+  "category": "その他のもの・ことば",
+  "emoji": "🔤",
+  "rank": 2,
+  "example_en": "This is a new word.",
+  "example_ja": "これは あたらしい たんごです。"
+ },
+ {
+  "id": "thing_number",
+  "en": "number",
+  "ja": "すうじ・ばんごう",
+  "category": "その他のもの・ことば",
+  "emoji": "🔢",
+  "rank": 2,
+  "example_en": "What is your number?",
+  "example_ja": "あなたの ばんごうは なんですか。"
+ },
+ {
+  "id": "thing_question",
+  "en": "question",
+  "ja": "しつもん",
+  "category": "その他のもの・ことば",
+  "emoji": "❓",
+  "rank": 2,
+  "example_en": "I have a question.",
+  "example_ja": "わたしは しつもんが あります。"
+ },
+ {
+  "id": "thing_story",
+  "en": "story",
+  "ja": "おはなし・ものがたり",
+  "category": "その他のもの・ことば",
+  "emoji": "📖",
+  "rank": 2,
+  "example_en": "This is a good story.",
+  "example_ja": "これは いい おはなしです。"
+ },
+ {
+  "id": "thing_page",
+  "en": "page",
+  "ja": "ページ",
+  "category": "その他のもの・ことば",
+  "emoji": "📄",
+  "rank": 2,
+  "example_en": "Open your book to page ten.",
+  "example_ja": "ほんの 10ページを あけてね。"
+ },
+ {
+  "id": "thing_email",
+  "en": "e-mail",
+  "ja": "メール",
+  "category": "その他のもの・ことば",
+  "emoji": "📧",
+  "rank": 2,
+  "example_en": "This is my e-mail.",
+  "example_ja": "これは わたしの メールです。"
+ },
+ {
+  "id": "thing_photo",
+  "en": "photo",
+  "ja": "しゃしん",
+  "category": "その他のもの・ことば",
+  "emoji": "📷",
+  "rank": 2,
+  "example_en": "This is my photo.",
+  "example_ja": "これは わたしの しゃしんです。"
+ },
+ {
+  "id": "thing_news",
+  "en": "news",
+  "ja": "ニュース・しらせ",
+  "category": "その他のもの・ことば",
+  "emoji": "📰",
+  "rank": 2,
+  "example_en": "This is good news.",
+  "example_ja": "これは いい しらせです。"
+ },
+ {
+  "id": "thing_thing",
+  "en": "thing",
+  "ja": "もの・こと",
+  "category": "その他のもの・ことば",
+  "emoji": "📦",
+  "rank": 2,
+  "example_en": "What is this thing?",
+  "example_ja": "これは なんですか。"
  }
 ];
