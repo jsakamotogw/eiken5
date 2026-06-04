@@ -47,6 +47,7 @@
   .btn.blue{background:linear-gradient(180deg,#8ad6ff,var(--blue));}
   .btn.green{background:linear-gradient(180deg,#a3edaa,var(--green));}
   .btn.purple{background:linear-gradient(180deg,#9b7bff,#7c4dff);}
+  .btn.orange{background:linear-gradient(180deg,#ffc18a,var(--orange));}
   .btn.gray{background:linear-gradient(180deg,#cfc8da,#a99fbd);}
   .btn.small{font-size:16px;padding:13px;}
   .btn-stack{display:flex;flex-direction:column;gap:12px;margin-top:8px;}
@@ -109,6 +110,29 @@
   .wrong-item .wsp{margin-left:auto;background:var(--blue);color:#fff;border:none;border-radius:10px;
     padding:4px 10px;font-size:12px;cursor:pointer;font-family:inherit;}
   .small-note{font-size:13px;color:#a99fb0;text-align:center;margin-top:12px;line-height:1.6;}
+
+  /* ===== 公式かこもんリンク ===== */
+  .link-box{background:#eef7ff;border:2px dashed var(--blue);border-radius:18px;padding:14px;
+    margin-top:14px;text-align:center;}
+  .link-box .lt{font-size:14px;font-weight:800;color:#3a8fcf;margin-bottom:8px;line-height:1.6;}
+  .link-btn{display:inline-block;text-decoration:none;background:linear-gradient(180deg,#8ad6ff,var(--blue));
+    color:#fff;border-radius:16px;padding:12px 18px;font-size:16px;font-weight:800;
+    box-shadow:0 4px 0 #3ba8e0;}
+  .link-btn:active{transform:translateY(2px);box-shadow:0 2px 0 #3ba8e0;}
+  .link-box .ln{font-size:11px;color:#9bb4c8;margin-top:8px;line-height:1.5;}
+
+  /* ===== ほんばん形式クイズ ===== */
+  .exam-card{background:var(--card);border-radius:26px;padding:26px 18px;box-shadow:0 8px 0 #f0d9e6;
+    text-align:center;margin:10px 0 14px;}
+  .exam-sentence{font-size:26px;font-weight:800;color:var(--ink);line-height:1.7;}
+  .exam-sentence .talkrole{color:var(--purple);font-size:18px;margin-right:4px;}
+  .exam-sentence .talkline{display:block;margin:4px 0;}
+  .blank{display:inline-block;min-width:64px;border-bottom:4px solid var(--pink-d);
+    margin:0 4px;vertical-align:middle;}
+  .blank.filled{color:var(--good);border-bottom-color:var(--good);font-weight:800;}
+  .exam-ja{font-size:15px;color:#9b93a8;margin-top:12px;font-weight:700;}
+  .choices.stack{grid-template-columns:1fr;}
+  .choices.stack .choice{font-size:17px;text-align:left;padding:16px 14px;}
 </style>
 </head>
 <body>
@@ -127,10 +151,16 @@
     </div>
     <div class="btn-stack">
       <button class="btn pink" onclick="startStudy('normal')">▶ きょうの れんしゅう</button>
+      <button class="btn orange small" onclick="startExam()">📝 ほんばん形式の もんだい</button>
       <button class="btn purple small" id="review-btn" onclick="startStudy('review')">🔁 にがてを ふくしゅう</button>
     </div>
     <div class="cat-hint" id="cat-hint"></div>
     <div class="sticker-box" id="sticker-box"><span class="empty">シールを あつめよう！</span></div>
+    <div class="link-box">
+      <div class="lt">🌐 ほんものの かこもんに ちょうせん！</div>
+      <a class="link-btn" href="https://www.eiken.or.jp/eiken/exam/grade_5/" target="_blank" rel="noopener">えいけん公式 5きゅう かこもん ▶</a>
+      <div class="ln">えいけん公式サイトが ひらきます（おうちのひとと いっしょに）</div>
+    </div>
     <div class="small-note">学習きろくは この iPad の なかだけに ほぞんされます</div>
   </section>
 
@@ -159,6 +189,30 @@
     </div>
   </section>
 
+  <!-- ほんばん形式クイズ -->
+  <section id="exam" class="screen">
+    <div class="topbar">
+      <button class="back" onclick="goHome()">✕</button>
+      <div class="progress"><div class="bar" id="ex-bar"></div></div>
+      <div class="qcount" id="ex-qcount">1/8</div>
+    </div>
+    <div class="q-label">( ) に あう ことばは どれ？</div>
+    <div class="exam-card">
+      <div class="exam-sentence" id="ex-sentence"></div>
+      <div class="exam-ja" id="ex-ja"></div>
+      <button class="speak-btn" onclick="speakExamSentence()">🔊 ぶんを きく</button>
+    </div>
+    <div class="choices" id="ex-choices"></div>
+    <div class="feedback" id="ex-feedback" style="display:none;">
+      <div class="fb-mark" id="ex-fb-mark">⭕</div>
+      <div class="ex-card">
+        <div class="ex-en" id="ex-answer-en"></div>
+        <div class="ex-ja" id="ex-explain"></div>
+      </div>
+      <button class="btn green next-btn" id="ex-next-btn" onclick="nextExam()">つぎへ ▶</button>
+    </div>
+  </section>
+
   <!-- けっか -->
   <section id="result" class="screen">
     <div class="result-big">
@@ -175,7 +229,7 @@
       <div id="r-wrongitems"></div>
     </div>
     <div class="btn-stack">
-      <button class="btn pink" onclick="startStudy('normal')">▶ もういちど れんしゅう</button>
+      <button class="btn pink" id="r-again" onclick="startStudy('normal')">▶ もういちど れんしゅう</button>
       <button class="btn gray small" onclick="goHome()">🏠 ホームへ もどる</button>
     </div>
   </section>
@@ -183,6 +237,7 @@
 </div>
 
 <script src="words.js"></script>
+<script src="exam.js"></script>
 <script>
 /* ============================================================
    英検5級 たんごれんしゅう  ロジック
@@ -394,6 +449,7 @@ function finishSet(){
   const wi=document.getElementById('r-wrongitems');
   if(sessionWrong.length){
     wi.innerHTML='';
+    document.querySelector('#r-wronglist h3').textContent='🔁 まちがえた たんご';
     sessionWrong.forEach(w=>{
       const d=document.createElement('div'); d.className='wrong-item';
       d.innerHTML=`<span class="we">${w.en}</span><span class="wj">${ruby(w.ja)}</span>`;
@@ -404,7 +460,195 @@ function finishSet(){
     wl.style.display='block';
   } else wl.style.display='none';
 
+  document.getElementById('r-again').setAttribute('onclick',"startStudy('normal')");
+  document.getElementById('r-again').textContent='▶ もういちど れんしゅう';
   show('result');
+}
+
+/* ============================================================
+   ほんばん形式クイズ（英検5級の出題形式をまねたオリジナル問題）
+   - 問題データは exam.js（window.EIKEN_EXAM）
+   - 単語と同じ store に進捗を記録し、にがて優先 + わすれたころで出題
+   ============================================================ */
+const EXAM = (window.EIKEN_EXAM || []);
+const EXAM_SET_SIZE = 8;
+let exQueue=[], exIndex=0, exWrong=[], exCorrect=0, exAnswered=false;
+
+function examScore(q){
+  const r = getRec(q.id);
+  let score = 10;
+  const total = r.correct + r.wrong;
+  if(total>0){ score += (r.wrong/total) * 40; }   // にがて優先
+  if(r.seen===0){ score += 25; }                  // 未学習を優先
+  if(r.last){
+    const due = LEVEL_INTERVAL[Math.min(r.level,5)];
+    const passed = daysBetween(r.last, todayStr());
+    if(passed >= due){ score += 20 + (passed-due)*2; } else { score -= 50; }
+  }
+  if(r.level>=5){ score -= 30; }
+  score += Math.random()*8;
+  return score;
+}
+
+function startExam(){
+  if(!EXAM.length){ alert('もんだいデータ(exam.js)が よみこめませんでした'); return; }
+  exQueue = EXAM.slice().sort((a,b)=>examScore(b)-examScore(a)).slice(0, Math.min(EXAM_SET_SIZE, EXAM.length));
+  exQueue = shuffle(exQueue);
+  exIndex=0; exWrong=[]; exCorrect=0;
+  show('exam');
+  renderExam();
+}
+
+// ___ を 青いブランクの箱に置きかえる（filled=true で 答えを緑色で入れる）
+function blankHTML(text, fillWord){
+  const box = fillWord ? '<span class="blank filled">'+fillWord+'</span>' : '<span class="blank">&nbsp;</span>';
+  return (text||'').split('___').join(box);
+}
+
+function renderExam(){
+  exAnswered=false;
+  const q = exQueue[exIndex];
+  document.getElementById('ex-qcount').textContent=(exIndex+1)+'/'+exQueue.length;
+  document.getElementById('ex-bar').style.width=((exIndex)/exQueue.length*100)+'%';
+  document.getElementById('ex-feedback').style.display='none';
+
+  // 文の表示（fill＝1文 / talk＝AとBの2行）
+  const se = document.getElementById('ex-sentence');
+  if(q.type==='talk'){
+    se.innerHTML =
+      '<span class="talkline"><span class="talkrole">A:</span>'+q.a+'</span>'+
+      '<span class="talkline"><span class="talkrole">B:</span>'+blankHTML(q.b)+'</span>';
+  }else{
+    se.innerHTML = blankHTML(q.sentence);
+  }
+  document.getElementById('ex-ja').textContent = q.ja || '';
+
+  // 選択肢（talk は文が長いので 1列、fill は 2列）
+  const box=document.getElementById('ex-choices');
+  box.className = 'choices' + (q.type==='talk' ? ' stack' : '');
+  box.innerHTML='';
+  // 表示順をシャッフルしつつ、正解が何番かを覚えておく
+  const order = shuffle(q.choices.map((c,i)=>({c,i})));
+  order.forEach(o=>{
+    const b=document.createElement('button');
+    b.className='choice';
+    b.textContent=o.c;
+    b.onclick=()=>examAnswer(b, o.i, q);
+    box.appendChild(b);
+  });
+}
+
+function examAnswer(btn, chosenIdx, q){
+  if(exAnswered) return;
+  exAnswered=true;
+  const rec=getRec(q.id);
+  rec.seen++; rec.last=todayStr();
+
+  const correctText = q.choices[q.answer];
+  document.querySelectorAll('#ex-choices .choice').forEach(b=>{
+    if(b.textContent===correctText) b.classList.add('correct');
+    else b.classList.add('dim');
+  });
+
+  if(chosenIdx===q.answer){
+    rec.correct++; rec.level=Math.min(rec.level+1,5); exCorrect++;
+    document.getElementById('ex-fb-mark').textContent='⭕'; playBeep(true);
+  }else{
+    rec.wrong++; rec.level=Math.max(rec.level-1,0); exWrong.push(q);
+    btn.classList.remove('dim'); btn.classList.add('wrong');
+    document.getElementById('ex-fb-mark').textContent='❌'; playBeep(false);
+  }
+  saveStore(store);
+  document.getElementById('ex-bar').style.width=((exIndex+1)/exQueue.length*100)+'%';
+
+  // 正解を入れた完成文＋かいせつ
+  const full = q.type==='talk'
+    ? 'B: '+(q.b||'').split('___').join(correctText)
+    : (q.sentence||'').split('___').join(correctText);
+  document.getElementById('ex-answer-en').textContent = full;
+  document.getElementById('ex-explain').textContent = q.explain || '';
+  document.getElementById('ex-feedback').style.display='block';
+  document.getElementById('ex-feedback').scrollIntoView({behavior:'smooth',block:'center'});
+  speak(full, 0.8); // 完成した文を読み上げ
+}
+
+function nextExam(){
+  exIndex++;
+  if(exIndex>=exQueue.length){ finishExam(); }
+  else { renderExam(); }
+}
+
+// ぶんを きく：出題中は ___ を とばして読む / 解答後は完成文を読む
+function speakExamSentence(){
+  const q=exQueue[exIndex]; if(!q) return;
+  const correctText=q.choices[q.answer];
+  let text;
+  if(q.type==='talk'){
+    const bLine = exAnswered ? (q.b||'').split('___').join(correctText) : (q.b||'').split('___').join(' ');
+    text = q.a + '. ' + bLine;
+  }else{
+    text = exAnswered ? (q.sentence||'').split('___').join(correctText) : (q.sentence||'').split('___').join(' ');
+  }
+  speak(text, 0.8);
+}
+
+function finishExam(){
+  const got = bumpStreakAndSticker(exCorrect, 6); // 8問中6問以上正解で シール
+
+  const score=exCorrect, total=exQueue.length;
+  document.getElementById('r-score').textContent=score+' / '+total;
+  let face='🎉', msg='よく できました！';
+  if(score===total){ face='🏆'; msg='パーフェクト！てんさい！'; }
+  else if(score>=6){ face='🎉'; msg='ほんばん形式 ばっちり！'; }
+  else if(score>=4){ face='😊'; msg='いいちょうし！つぎも がんばろう'; }
+  else { face='💪'; msg='れんしゅうすれば できるよ！'; }
+  document.getElementById('r-face').textContent=face;
+  document.getElementById('r-msg').textContent=msg;
+
+  const ns=document.getElementById('r-newsticker');
+  if(got){ document.getElementById('r-got').textContent=got; ns.style.display='block'; }
+  else ns.style.display='none';
+
+  // まちがえた もんだい
+  const wl=document.getElementById('r-wronglist');
+  const wi=document.getElementById('r-wrongitems');
+  if(exWrong.length){
+    wi.innerHTML='';
+    document.querySelector('#r-wronglist h3').textContent='🔁 まちがえた もんだい';
+    exWrong.forEach(q=>{
+      const correctText=q.choices[q.answer];
+      const full = q.type==='talk' ? (q.a+' / B: '+(q.b||'').split('___').join(correctText))
+                                    : (q.sentence||'').split('___').join(correctText);
+      const d=document.createElement('div'); d.className='wrong-item';
+      d.innerHTML='<span class="wj" style="font-size:14px;">'+full+'</span>';
+      const sp=document.createElement('button'); sp.className='wsp'; sp.textContent='🔊';
+      sp.onclick=()=>speak(full,0.8); d.appendChild(sp);
+      wi.appendChild(d);
+    });
+    wl.style.display='block';
+  } else { wl.style.display='none'; }
+
+  document.getElementById('r-again').setAttribute('onclick','startExam()');
+  document.getElementById('r-again').textContent='▶ もういちど ほんばん形式';
+  show('result');
+}
+
+/* ---------- 連続日数＋シールの更新（単語/本番 共通） ---------- */
+function bumpStreakAndSticker(correctCount, need){
+  const m=store._meta, today=todayStr();
+  if(m.lastStudy!==today){
+    if(m.lastStudy && daysBetween(m.lastStudy,today)===1) m.streak++;
+    else if(!m.lastStudy) m.streak=1;
+    else if(daysBetween(m.lastStudy,today)>1) m.streak=1;
+    m.lastStudy=today;
+  }
+  let got=null;
+  if(correctCount>=need){
+    got=STICKERS[m.stickers.length % STICKERS.length];
+    m.stickers.push(got);
+  }
+  saveStore(store);
+  return got;
 }
 
 /* ---------- ホーム更新 ---------- */
